@@ -1,0 +1,96 @@
+[0.285s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/ibrahim/MQTT-']
+[0.285s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/ibrahim/MQTT-'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7724d4522950>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7724d4521030>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7724d4521030>>)
+[0.970s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.971s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.971s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ibrahim/MQTT-'
+[0.971s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extensions ['ignore', 'ignore_ament_install']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extension 'ignore'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extension 'ignore_ament_install'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extensions ['colcon_pkg']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extension 'colcon_pkg'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extensions ['colcon_meta']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extension 'colcon_meta'
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extensions ['ros']
+[0.972s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extension 'ros'
+[1.018s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extensions ['cmake', 'python']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extension 'cmake'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extension 'python'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extensions ['python_setup_py']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-) by extension 'python_setup_py'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extensions ['ignore', 'ignore_ament_install']
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extension 'ignore'
+[1.019s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extension 'ignore_ament_install'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extensions ['colcon_pkg']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extension 'colcon_pkg'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extensions ['colcon_meta']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extension 'colcon_meta'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extensions ['ros']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extension 'ros'
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extensions ['cmake', 'python']
+[1.020s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extension 'cmake'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extension 'python'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extensions ['python_setup_py']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics) by extension 'python_setup_py'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extensions ['ignore', 'ignore_ament_install']
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extension 'ignore'
+[1.021s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extension 'ignore_ament_install'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extensions ['colcon_pkg']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extension 'colcon_pkg'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extensions ['colcon_meta']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extension 'colcon_meta'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extensions ['ros']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extension 'ros'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extensions ['cmake', 'python']
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extension 'cmake'
+[1.022s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extension 'python'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extensions ['python_setup_py']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/include) by extension 'python_setup_py'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extensions ['ignore', 'ignore_ament_install']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extension 'ignore'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extension 'ignore_ament_install'
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extensions ['colcon_pkg']
+[1.023s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extension 'colcon_pkg'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extensions ['colcon_meta']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extension 'colcon_meta'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extensions ['ros']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extension 'ros'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extensions ['cmake', 'python']
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extension 'cmake'
+[1.024s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extension 'python'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extensions ['python_setup_py']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/lib) by extension 'python_setup_py'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extensions ['ignore', 'ignore_ament_install']
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extension 'ignore'
+[1.025s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extension 'ignore_ament_install'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extensions ['colcon_pkg']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extension 'colcon_pkg'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extensions ['colcon_meta']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extension 'colcon_meta'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extensions ['ros']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extension 'ros'
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extensions ['cmake', 'python']
+[1.026s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extension 'cmake'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extension 'python'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extensions ['python_setup_py']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/src) by extension 'python_setup_py'
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extensions ['ignore', 'ignore_ament_install']
+[1.027s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extension 'ignore'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extension 'ignore_ament_install'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extensions ['colcon_pkg']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extension 'colcon_pkg'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extensions ['colcon_meta']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extension 'colcon_meta'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extensions ['ros']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extension 'ros'
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extensions ['cmake', 'python']
+[1.028s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extension 'cmake'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extension 'python'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extensions ['python_setup_py']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/MQTT Basics/test) by extension 'python_setup_py'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/log) by extensions ['ignore', 'ignore_ament_install']
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/log) by extension 'ignore'
+[1.029s] Level 1:colcon.colcon_core.package_identification:_identify(/home/ibrahim/MQTT-/log) ignored
+[1.029s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
